@@ -34,7 +34,7 @@ background-size: cover
 
 .bloggpostbox{
     display: flex;
-
+   
     border: 3px solid black;
     margin: 5px;
     }
@@ -47,12 +47,7 @@ background-size: cover
     margin: 5px;
     }
 
-    .linkbox{
-        height:17px;
-        width: 100px;;
-    border: solid 3px black;
-    ;
-    }
+
 
 
 .thylacinejaws {
@@ -72,6 +67,7 @@ background-size: cover
 }
 
 .linkbutton{
+    display: ;
     height: 20px;
     margin: 10px;
     box-shadow: 5px 5px 10px;
