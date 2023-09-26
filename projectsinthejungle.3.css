@@ -34,6 +34,7 @@ background-size: cover
 
 .bloggpostbox{
     display: flex;
+
     border: 3px solid black;
     margin: 5px;
     }
@@ -46,12 +47,20 @@ background-size: cover
     margin: 5px;
     }
 
+    .linkbox{
+        height:17px;
+        width: 100px;;
+    border: solid 3px black;
+    ;
+    }
+
 
 .thylacinejaws {
     background-image: url(thylcinejaws.jpg);
     background-size: cover;
     height: 230px;
-    width: 270px;
+    width: 340px;
+    flex:4
     
 }
 
@@ -59,4 +68,15 @@ background-size: cover
     margin: 20px;
     font-family: Cambria, Cochin, Georgia, Times,
      'Times New Roman', serif;
+     flex: 6;
+}
+
+.linkbutton{
+    height: 20px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px;
+    border-radius: 10%;
+    font-family: 'Times New Roman', Times, serif;
+
+
 }
