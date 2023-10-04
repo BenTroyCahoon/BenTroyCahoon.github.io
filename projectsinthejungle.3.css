@@ -1,58 +1,151 @@
-* {
-    border: 1px solid red;
+{
+    border: 2px solid red;
+    text-decoration: none;
+    
 }
+
+body {
+    position: relative;
+}
+    
+
+h1 {
+    font-size:280%;
+  }
+
+    h2 {
+        font-size: 200%;
+    }
 
 #header {
-    height: 100px;
-    width: auto;
-    border: 4px solid black;
+    height: 180px;
+    width: 700px;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 12px;
+   padding-top: 30px;
+    
+   
+   
+   
 }
 
-#smallheader{
-    margin-top: 10px;
+.smallheader{
+    
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
     border: 3px solid black;
+    background-image: url(trees-7459820_1280.jpg);
+    background-size: cover;
+    
 
+}
+
+
+
+.blackstrip{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(8, 8, 8);
+    height: 70px;
+    width: auto;
+   color: white;
+   font-family: 'Fraunces', serif;
+   position: relative;
+
+}
+
+#yellowstrip{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    height: 65px;
+    width: auto;
+    background-color:yellow;
+}
+#bigwrapper{
+    display: flex;
+    flex-direction:row-reverse;
+   
+
+
+    border: 5px solid green;
+    position: relative;
+    
+}
+
+.splitwrapper-left {
+   display: flex;
+   flex-direction: column;
+    flex:3;
+    position: relative;
+   
+}
+
+.splitwrapper-right {
+    flex:1;
+   background-color: yellow;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   background-image: url(pexels-pixabay-235986.jpg);
+    background-size: 100%;
+}
+
+#twitterlogo {
+    width:  50px;
+   height: 50px;
+   margin-top: 4px;
+margin-right: 10px;
+margin-left: 10px;
+}
+
+#twitterlogo:hover{
+    transform:scale(130%);
+}
+
+
+
+
+#facebooklogo {
+    height: 50px;
+    width: 50px;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+#facebooklogo:hover{
+    transform:scale(130%);
+}
+
+    
+#instalogo {
+    height: 50px;
+    height: 50px;
+    margin-top: 4px;
+}
+#instalogo:hover{
+    transform:scale(130%);
 }
 
 
 .thylazinecolour{
-    margin: 5px;    
-height: 300px;
-width: 500px;
-background-image: url(thylazinecolour.avif);
-background-size: cover
-
-}
-
-#bigwrapper{
-    display: flex;
-    justify-content:center;
-    flex-direction: column;
-    border: double rgb(37, 155, 49) 5px;
+    background-image: url(thylazinecolour.avif);
+    height: 310px;
+    width: 480px;
+   background-size: cover;
+   margin-top: 10px;
+   margin-bottom: 7px;
+   border: 4px double black;
 }
 
 .bloggpostbox{
-    display: flex;
-    text-align: end;
-   
-    border: 3px solid black;
+    background-color: rgb(20, 161, 20);
+   border: 3px solid black;
     margin: 5px;
+    position: relative;
     }
-
-
-.bloggpostboxleft{
-    display: flex;
-    flex-direction: row-reverse;
-    border: 3px solid black;
-    margin: 5px;
-    
-    }
-
 
 
 
@@ -61,7 +154,6 @@ background-size: cover
     background-size: cover;
     height: 230px;
     width: 340px;
-    float: left;
     
 }
 
@@ -70,26 +162,76 @@ background-size: cover
     margin: 20px;
     font-family: Cambria, Cochin, Georgia, Times,
      'Times New Roman', serif;
+}
      
-}
 
-.linkbutton{
 
-    height: 20px;
-    box-shadow: 5px 5px 10px;
-    border-radius: 10%;
-    font-family: 'Times New Roman', Times, serif;
-}
+
+    .quagga1{
+        background-image: url(Quagga_photo.jpg);
+        background-size: cover;
+        height: 230px;
+        width: 340px;
+    }
+
+
+
    
 
      a {
     padding: 3px;
     border: 3px solid black;
     box-shadow: 3px 3px 3px;
-    font-family: 'Times New Roman', Times, serif;
-  float: right;
-    
+  color: black;
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  text-decoration: none;
+  background-color: greenyellow;
+  font-family: 'Fraunces', serif;
 
+ 
+    }
 
+    #searchbarbox{
+        height: 170px;
+        background-color: rgb(38, 72, 103);
+        display: flex;
+        position: sticky;
+        top: 10px;
+        box-shadow: 4px 5px 5px;
+        border-radius: 5%;
+        
+    }
 
-   }
+    #searchbar{
+        width: 80%;
+        height: 30px;
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
+        border: 3px solid black;
+    }
+
+    #footercontainer{
+        height: 200px;
+        width: auto;
+        background-color: yellow;
+
+    }
+
+#splitwrapper-left2{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#lowerwrapper2{
+    display: flex;
+    flex-direction: row-reverse
+}
+
+#bigwrapper2{
+    display: flex;
+    flex-direction: row
+}
