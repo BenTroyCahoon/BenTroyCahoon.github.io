@@ -225,9 +225,9 @@ margin-right: 10px;
      'Times New Roman', serif;
 }
 
-.smalltextabove{
+.smalltextabove {
     margin: 10px;
-    margin left: 10px;
+    margin-left: 10px;
     text-decoration-line: underline;
     font-family: 'Fraunces', serif;
 
@@ -400,7 +400,7 @@ border: 2px solid black;
 
         
 
-@media (width <=480px) 
+@media (width <=500px) 
 {
 
    #wwf{ display: none;}
@@ -433,6 +433,7 @@ border: 2px solid black;
    flex-direction: column;
    overflow: hidden;
    align-items: center;
+   justify-content: center;
    
 }
 #header{
@@ -489,17 +490,17 @@ border: 2px solid black;
 }
 
 
-@media screen and (min-width:480px) and (max-width:780px){
+@media screen and (min-width:500px) and (max-width:800px){
 
     #bigwrapper{
-        flex-direction: column;
+        flex-direction: row;
     }
 
-}
+
   #bigwrapper2{
    
-        flex-direction: column-reverse;
-    overflow: hidden;}
+        flex-direction: row;
+ }
     
     .smalltextabove{
     align-items: center;
@@ -507,7 +508,7 @@ border: 2px solid black;
     .bloggpostbox{
    flex-direction: column;
    overflow: hidden;
-   align-items: center;
+ 
    
 }
 
@@ -561,7 +562,7 @@ border: 2px solid black;
     width: auto;
 }
 
-}
+
 
 
 
